@@ -233,4 +233,33 @@ section.wrapper {
     grid-template-columns: repeat(2, 1fr); /* 横2列 */
     gap: 30px;
 }
+/* =====================
+   店舗情報を中央寄せ
+===================== */
+section.wrapper {
+    text-align: center;
+}
+
+/* 表を中央に */
+.info {
+    margin: 0 auto 40px;
+}
+
+/* 表の文字も中央 */
+.info th,
+.info td {
+    text-align: center;
+}
+
+/* 地図を中央 */
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.map img {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 15px;
+}
 
